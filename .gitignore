@@ -1,0 +1,48 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets (MOUHIM BZF)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Node modules & package manager logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build & output directories
+dist/
+build/
+.next/
+.out/
+
+# IDE & Code Editor files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Database & local storage files (PHP / Local MySQL/SQLite)
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary & cache files
+.cache/
+.eslintcache
+*.tmp
+*.log
